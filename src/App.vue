@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <OwnerList/>    
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import OwnerList from './components/OwnerList.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    OwnerList
   }
 }
 </script>
